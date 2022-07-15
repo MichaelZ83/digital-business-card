@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-color: #23252C;
+  box-sizing: border-box;
+  width: 550px;
+  height: 868px;
+  margin: auto;
+  margin-top: 35px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main > * {
+  width: 317px;
+  width: 317px;
+  background-color: #F5F5F5;
+}
+
+.info {
+  margin-top: 44px;
+  text-align: center;
+  border-radius: 25px 25px 0px 0px;
+
+}
+
+.info--profileimg{
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+.info > div {
+  margin-top: 15px;
+  padding: 0px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info > div > * {
+  width: 115px;
+  height: 34px;
+}
+
+
+.info > h1 {
+  color: #2B283A;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  margin-top: 0;
+
+  padding: 20px;
+
+  background: #F5F5F5;
+}
+
+.info > h3 {
+  margin-top: -34px;
+  
+  color: #F47D27;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.info > h4 {
+  margin-top: -5px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+  
+  text-align: center;
+  
+  color: #4A4E74;
+}
+
+.about {
+  padding: 10px 35px;
+}
+
+.about > h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #2B283A;
+}
+
+.about > p {
+  margin-top: -10px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  color: #4A4E74;
+}
+
+.interests {
+  padding: 0px 35px;
+  margin-top: -20px;
+}
+
+.interests > h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #2B283A;
+}
+
+.interests > p {
+  margin-top: -10px;
+  margin-bottom: 40px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  color: #4A4E74;
+}
+
+.footer {
+  background: #D5D4D8;
+  border-radius: 0px 0px 10px 10px;
+  width: 317px;
+  height: 64px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
