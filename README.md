@@ -1,2 +1,2 @@
-# digital-business-card
+# Digital Business Card
 Frontend Development React project
